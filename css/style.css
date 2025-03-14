@@ -1,0 +1,156 @@
+*{
+    margin:1;
+    padding: 1;
+    
+    }
+    body
+    {
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    font-family: "Trebuchet MS", Arial, sans-serif; 
+    color: #090909;
+    
+    }
+    header
+    {
+    background: url('../img/banner.jpg');
+    width: 100%;
+    align-items:center;
+    }  
+    
+    header h1
+    {
+    font-family: "Comic Sans MS"; 
+    font-size: 2.5em;
+    font-weight: normal;
+    }
+    #titulo
+    {
+    display: inline-block;
+    }
+    #logo, header h1
+    {
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 140px;
+    
+    
+    }
+    h1{
+        color: #ff0808;
+    }
+    
+    
+    h2{
+        color: #090909;
+    }
+    
+    /*menu*/
+    
+    nav
+    {
+    display: inline-block; 
+    width: 100%;
+    height: -40px;
+    text-align: right;
+    background-color:rgb(66, 66, 66);
+    }
+    nav ul
+    {
+    list-style-type: none;
+    }
+    nav li
+    {
+    display: inline-block; 
+    margin-right: 15px;
+    }
+    nav a
+    {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: #07aef6;
+    padding-bottom: 3px;
+    text-decoration: none;
+    }
+    nav a:hover
+    {
+    color: #f78d14;
+    border-bottom: 3px solid #f6ba06;
+    }
+    
+    
+    /* contenido */
+    img{
+    height:250px;
+    }
+    article {
+    padding: 10px;
+    }
+    section{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    float:left;
+    width:75%;
+    }
+    aside{
+    padding:5px;
+    font-style: italic; float:right;
+    width: 20%;
+    border: 2px solid;
+    align-items:center
+    }
+    
+    footer {
+    float:left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    border-top: 2px solid #000000; 
+    background-color:#1e2932; 
+    color: white;
+    text-align: center;
+    padding-top: -70px;;
+    }
+    
+    section {
+        width: 75%;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    section {
+        width: 75%;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    aside {
+        width: 20%;
+        text-align: center;
+        font-style: italic;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        background: white;
+    }
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    ul{
+        list-style-type: none;
+    }
+
